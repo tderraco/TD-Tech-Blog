@@ -1,9 +1,9 @@
                    :root {
-                      --primary: #ccdad1;
+                      --primary: #6c9fd9;
                       --secondary: #dce9d5;
                       --tertiary: #788585;
                       --light-dark: #a1a0a1;
-                      --dark: #201110;
+                      --dark: #444c4f;
                       --border-radius: .3rem;
                   }
                   
@@ -15,7 +15,7 @@
                       background-color: var(--primary);
                       margin: 0;
                       padding: 0;
-                      font-family: "IBM Plex Sans", sans-serif;
+                      font-family: 'Bangers', cursive;
                       color: var(--dark);
                       line-height: 1.5;
                       font-size: 24px;
@@ -74,7 +74,6 @@
                       color: var(--primary);
                       background-color: var(--tertiary);
                       transform: translate(0, 0);
-                      box-shadow: 2px 2px var(--dark);
                   }
                   
                   .btn-inline {
@@ -87,7 +86,6 @@
                       border: none;
                       outline: none;
                       background-color: var(--light-dark);
-                      box-shadow: 3px 3px var(--secondary);
                       transform: translate(-1px, -1px);
                       display: inline-block;
                       width: auto;
@@ -101,7 +99,7 @@
                       color: var(--primary);
                       background-color: var(--tertiary);
                       transform: translate(0, 0);
-                      box-shadow: 2px 2px var(--dark);
+                     
                   }
                   
                   .hero {
